@@ -1,14 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
     <link type="text/css" rel="stylesheet" href="./estilos.css">
-    <title>Document</title>
 </head>
+
 <body>
-    <h1>Hola Mundo!</h1>
-    <p>Este es un parrafo para mi segundo commit</p>
+    <header class="header">
+        <figure class="logo">
+            <img src="" alt="LOGO">
+        </figure>
+    </header>
+    <main class="container">
+        <section class="registro">
+            <div>
+                <h1>Registro</h1>
+            </div>
+            <section class="registro__content">
+                <form action="" id="form-registro">
+                    <div class="registro__content-documento">
+                        <label for="documento">
+                            <span>Tipo de documento</span>
+                            <div>
+                                <select name="documento" id="documento">
+                                    <option value="1">Cédula de Ciudadanía</option>
+                                    <option value="2">Tarjeta de Identidad</option>
+                                    <option value="3">Cédula de Extranjería</option>
+                                    <option value="4">Documento Personal Identificación</option>
+                                    <option value="5">Pasaporte</option>
+                                </select>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="registro__content-numero-documento">
+                        <label for="numero-documento">
+                            <span>Número de documento</span>
+                            <div>
+                                <input type="number" id="numero-documento">
+                            </div>
+                        </label>
+                    </div>
+                    <div class="registro__content-email">
+                        <label for="email">
+                            <span>Correo</span>
+                            <div>
+                                <input type="email" id="email">
+                            </div>
+                        </label>
+                    </div>
+                    <div class="registro__content-password">
+                        <label for="contrasena">
+                            <span>Contraseña</span>
+                            <div>
+                                <input type="password" id="contrasena">
+                            </div>
+                        </label>
+                    </div>
+                </form>
+                <div class="registro__content-btn-registrar">
+                    <button type="submit" id="btn-registrar">
+                        <h2>Registrar</h2>
+                    </button>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <span>Footer</span>
+    </footer>
 </body>
+
 </html>
