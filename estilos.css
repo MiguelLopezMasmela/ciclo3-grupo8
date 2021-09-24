@@ -1,0 +1,39 @@
+html{
+
+    font-family: "Roboto", sans-serif;
+    
+
+}
+
+.registro{
+
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 70vh;
+    min-height: 450px;
+    width: 300px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    
+}
+
+.registro__titulo{
+
+    display: inline-block;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    padding-left: 0px;
+
+
+}
+
+#form-registro{
+
+    position: absolute;
+    top: 120px;
+
+}
